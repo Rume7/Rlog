@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T16:37:21.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="UqWEUNWz2fNWdRp5QUOU" version="13.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-29T16:42:41.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="HM1XfdS3eFBiXSjCa_Ju" version="13.8.7" type="github">
   <diagram id="Yi9HSiLjgrskKvtW_kwx" name="Page-1">
     <mxGraphModel dx="1102" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MxWogmLeJxLphhxJlBBR-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="MxWogmLeJxLphhxJlBBR-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="50" y="90" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MxWogmLeJxLphhxJlBBR-2" value="Get a list of poem posts from API" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
@@ -42,7 +42,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MxWogmLeJxLphhxJlBBR-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="MxWogmLeJxLphhxJlBBR-8" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="50" y="340" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MxWogmLeJxLphhxJlBBR-9" value="Login to admin page" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
@@ -88,7 +88,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MxWogmLeJxLphhxJlBBR-21" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="MxWogmLeJxLphhxJlBBR-21" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="40" y="180" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MxWogmLeJxLphhxJlBBR-22" value="Get individual poem data from API" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
