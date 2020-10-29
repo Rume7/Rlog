@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T15:21:20.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="_hh3uN48kOb1XB66I5Sd" version="13.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-29T15:39:10.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="9B6nys8bMuTySSzAnc_V" version="13.8.7" type="github">
   <diagram id="Yi9HSiLjgrskKvtW_kwx" name="Page-1">
     <mxGraphModel dx="1102" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,13 +73,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MxWogmLeJxLphhxJlBBR-15" value="Select individual poem" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="350" y="180" width="130" height="60" as="geometry" />
+          <mxGeometry x="280" y="180" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MxWogmLeJxLphhxJlBBR-16" value="Visit Home page" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="180" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MxWogmLeJxLphhxJlBBR-17" value="Show list of poems on the home page" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="MxWogmLeJxLphhxJlBBR-17" value="Redirect to post page" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="430" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MxWogmLeJxLphhxJlBBR-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -88,27 +88,38 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MxWogmLeJxLphhxJlBBR-19" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="MxWogmLeJxLphhxJlBBR-16" target="MxWogmLeJxLphhxJlBBR-15" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="310" as="sourcePoint" />
-            <mxPoint x="310" y="260" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="280" y="210" />
-              <mxPoint x="300" y="210" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MxWogmLeJxLphhxJlBBR-20" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="MxWogmLeJxLphhxJlBBR-15" target="MxWogmLeJxLphhxJlBBR-17" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="468" y="275" as="sourcePoint" />
-            <mxPoint x="518" y="225" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="500" y="210" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="MxWogmLeJxLphhxJlBBR-21" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=3;" vertex="1" parent="1">
           <mxGeometry x="40" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWogmLeJxLphhxJlBBR-22" value="Get individual poem data from API" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWogmLeJxLphhxJlBBR-27" value="Show full blog post" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="780" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MxWogmLeJxLphhxJlBBR-28" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MxWogmLeJxLphhxJlBBR-22" target="MxWogmLeJxLphhxJlBBR-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="250" as="sourcePoint" />
+            <mxPoint x="780" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWogmLeJxLphhxJlBBR-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MxWogmLeJxLphhxJlBBR-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="260" as="sourcePoint" />
+            <mxPoint x="620" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWogmLeJxLphhxJlBBR-30" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="209.5" as="sourcePoint" />
+            <mxPoint x="280" y="209.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MxWogmLeJxLphhxJlBBR-31" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="210" as="sourcePoint" />
+            <mxPoint x="430" y="209.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
